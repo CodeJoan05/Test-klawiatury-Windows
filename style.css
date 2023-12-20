@@ -1,0 +1,443 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(33, 88, 110);
+    margin-top: 33px;
+    overflow: auto;
+}
+
+header
+{
+    background-color:rgb(0, 0, 0);
+    height: 547px; 
+    width: 1290px;
+    margin-left: 32px;
+    border: 14px solid rgb(16, 35, 44);
+}
+
+.key
+{
+    border: 1px solid rgb(92, 194, 241);
+    border-radius: 8px;
+    color:#fff;
+    display: inline-block;
+    font-size: 17px;
+    height: 52px;
+    text-align: center;
+    vertical-align: top;
+    width: 52px;
+    margin: 5px 0px
+}
+
+.kk-key
+{
+    border: 1px solid rgb(92, 194, 241);
+    border-radius: 8px;
+    color:#fff;
+    display: inline-block;
+    font-size: 22px;
+    height: 52px;
+    text-align: center;
+    vertical-align: top;
+    width: 52px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.kk-key p
+{
+    font-size: 19px;
+    margin-top: 14px;
+}
+
+.keybord
+{
+    height: 543px;
+    margin: 5px auto 0;
+    width: 1264px;
+    position: relative;
+}
+
+.content
+{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    margin-left: 19px;
+}
+
+.keybord-top
+{
+    background-color:#000;
+    color:#71cce7;
+    font-size: 16px;
+    height: 30px;
+    margin: 0 0 15px;
+    overflow: hidden;
+    padding: 7px 0 0;
+    width: 1240px;
+}
+
+.keybord-top>p 
+{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 3px 0;
+}
+
+.key .icon 
+{
+    width: 21px;
+    margin-top: 18%;
+}
+
+.vh
+{
+    visibility: hidden;
+}
+
+.dl
+{
+    font-size: 15px;
+    line-height: .9;
+}
+
+.dl>p
+{
+    margin-top: 11px;
+}
+
+.t16
+{
+    font-size: 16px;
+}
+
+.t16>p
+{
+    margin-top: 18px;
+}
+
+.half 
+{
+    width: 22px;
+}
+
+/*Klawisz minus*/
+
+.key.dl.smin>p
+{
+    font-size: 28px;
+    margin-top: -8px;
+}
+
+/*Klawisz plus*/
+
+.key.dl.splus>p
+{
+    font-size: 20px;
+    line-height: .7;
+}
+
+.brackets
+{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.key-block
+{
+    padding: -1px 22px;
+}
+
+.key.bs>p
+{
+    margin-top: 4px;
+}
+
+.key.bs
+{
+    font-size: 35px;
+    width: 112px;
+}
+
+/*Klawisz Tab*/
+
+.key.tab
+{
+    width: 83px;
+}
+
+.key.ds>p
+{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.key.ds.sum
+{
+    width: 81px;
+}
+
+/*Klawisz plus*/
+
+.key.plus
+{
+    float: right;
+    height: 116px;
+    margin-right: 52px;
+}
+
+.key.plus>p
+{
+    margin-top: 45px;
+}
+
+/*Klawisz Caps Lock*/
+
+.key.caps
+{
+    font-size: 16px;
+    width: 105px;
+}
+
+.key.caps>p
+{
+    margin-top: 17px;
+}
+
+/*Klawisz Enter*/
+
+.key.enter
+{
+    width: 119px;
+}
+
+.key.enter span {
+    display: inline-block;
+    height: 12px;
+    vertical-align: -1px;
+    width: 24px;
+}
+
+/*Klawisz Shift 1*/
+
+.key.shift1
+{
+    width: 132px;
+}
+
+.key.shift1>p,
+.key.shift2>p
+{
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+/*Klawisz Shift 2*/
+
+.key.shift2
+{
+    width: 152px;
+}
+
+/*Drugi Enter*/
+
+.key.enter2
+{
+    float: right;
+    height: 116px;
+    margin-top: -59px;
+    margin-right: 52px;
+    margin-left: -40px;
+}
+
+.key.enter2>p
+{
+    font-size: 16px;
+    margin-top: 48px;
+}
+
+/*Klawisze Ctrl*/
+
+.key.ctrl1,
+.key.ctrl2
+{
+    width: 70px;
+}
+
+/*Klawisz menu*/
+
+.cblock>span
+{
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin: 5px 3px 0;
+}
+
+.cblock
+{
+    border: 1px solid #fff;
+    height: 25px;
+    margin: 12px auto 0;
+    width: 25px;
+}
+
+.cblock img
+{
+    width: 28px;
+    height: 28px;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: #000;
+}
+
+.key.cont
+{
+    width: 66px;
+}
+
+/*Strzałka - Up*/
+
+.key.arup>p
+{
+    font-size: 26px;
+    margin-top: 10px;
+    transform: rotate(-90deg);
+}
+
+/*Klawisz Windows*/
+
+.key.wndw>p
+{
+    margin: 14px auto 0;
+    text-align: center;
+}
+
+.key.wndw span
+{
+    display: block;
+    height: 23px;
+    margin: 0 auto;
+    width: 24px;
+}
+
+.key.wndw
+{
+    width: 70px;
+}
+
+/*Klawisz alt*/
+
+.key.alt
+{
+    width: 70px;
+}
+
+/*Klawisz spacji*/
+
+.key.space
+{
+    width: 368px;
+}
+
+/*Klawisz zero*/
+
+.key.zero
+{
+    width: 112px;
+}
+
+/*Lewy przycisk myszy*/
+
+.key.lclick
+{
+    border-radius: 0 0 0 15px;
+    height: 40px;
+    vertical-align: bottom;
+    width: 96px;
+}
+
+/*Prawy przycisk myszy*/
+
+.key.rclick
+{
+    border-radius: 0 0 15px 0;
+    height: 40px;
+    vertical-align: bottom;
+    width: 96px;
+}
+
+/*Przycisk scroll myszy*/
+
+.key.cclick
+{
+    border-radius: 0;
+    height: 40px;
+    vertical-align: bottom;
+    width: 24px;
+}
+
+/*Przyciski myszy*/
+
+.m-block
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    width: 843px;
+}
+
+/*Klawisze strzałek - Left, Right*/
+
+.key.arleft>p,
+.key.arright>p
+{
+    font-size: 26px;
+    margin: 11px 0;
+}
+
+/*Strzałka - Down*/
+
+.key.ardown>p
+{
+    font-size: 27px;
+    margin: 11px 0 14px 0px;
+    transform: rotate(90deg);
+}
+
+.key.press
+{
+    background-color:#d0ecf6;
+    border-color:#4ebbee;
+    color:#000;
+}
+
+.key.active
+{
+    background-color:rgb(7, 201, 250);
+    border-color:#4ebbee;
+    color:#000;
+}
+
+.key.wndw.active span,
+.key.wndw.press span
+{
+    background-position: 0 -23px;
+}
+
+.key.cont.active .cblock,
+.key.cont.press .cblock,
+.key.cont.active .cblock>span,
+.key.cont.press .cblock>span
+{
+    border-color:#000;
+}
+
+.key.enter.active span,
+.key.enter.press span
+{
+    background-position: -24px -13px;
+}
