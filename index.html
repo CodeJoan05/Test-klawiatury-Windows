@@ -5,11 +5,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="test, keyboard, button, online, key-test, key, test klawiatury, klawiatura">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test klawiatury Windows" />
     <link rel="shortcut icon" type="image/x-icon" href="./Icons/coding.png">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <title>Test klawiatury Windows</title>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </noscript>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <!-- Strona działa poprawnie gdy ma powiększenie 100% -->
@@ -129,7 +140,7 @@
             <div class="key alt k18"><p>Alt</p></div>
             <div class="key cont k93">
                 <div class="cblock">
-                    <img src="./Icons/menu.png">
+                    <img src="./Icons/menu.png" width="500" height="500">
                 </div>
             </div>
             <div class="key ctrl2 k17"><p>Ctrl</p></div>
@@ -154,8 +165,6 @@
 
         </div>
     </header>
-
-    <script src="script.js"></script>
 
 </body>
 

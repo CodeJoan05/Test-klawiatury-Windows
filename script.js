@@ -258,3 +258,6 @@ function list(a)
             break;
         }
     }
+
+// Zastąp zdarzenia 'unload' i 'beforeunload' zdarzeniem 'pagehide'
+window.addEventListener('pagehide', function(){});
